@@ -1,5 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Calendar myCalendar = new Calendar();
+        String validHollyday = "01/01/2023";
+        String invalidHollyday = "02/01/2023";
+
+        myCalendar.checkHollyday(validHollyday);
+        myCalendar.checkHollyday(invalidHollyday);
     }
 }
