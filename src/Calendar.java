@@ -32,4 +32,11 @@ public class Calendar {
             System.out.println("Não existe um feriado com essa data!");
         }
     }
+
+    public void printHollydays() {
+        System.out.println("Os feriados são:");
+        for (Hollyday hollyday : this.hollydays) {
+            System.out.println(hollyday.getDate() + " => " + hollyday.getDescription());
+        }
+    }
 }

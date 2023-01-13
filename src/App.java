@@ -6,5 +6,7 @@ public class App {
 
         myCalendar.checkHollyday(validHollyday);
         myCalendar.checkHollyday(invalidHollyday);
+
+        myCalendar.printHollydays();
     }
 }
